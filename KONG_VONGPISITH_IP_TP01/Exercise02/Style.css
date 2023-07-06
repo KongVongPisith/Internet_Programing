@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: gray;
+}
+.flying-box{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border: 1px solid black;
+    background-color: rgb(238, 0, 251);
+}

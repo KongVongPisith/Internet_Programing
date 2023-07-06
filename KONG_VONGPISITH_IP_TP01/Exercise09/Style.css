@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.header{
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    /* background: goldenrod; */
+    overflow-y: auto;
+}

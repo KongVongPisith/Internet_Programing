@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(99, 113, 113);
+}
+.flying-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}

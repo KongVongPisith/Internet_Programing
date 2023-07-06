@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h1 span{
+    color: rgb(255, 0, 0);
+}
+.row-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.column-wrapper{
+   float: left;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: blue;
+    margin: 2px;
+    
+}

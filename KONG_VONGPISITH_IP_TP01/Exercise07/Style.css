@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    margin: auto;
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(247, 7, 255);
+    width: clamp(0px,50%,300px);
+}
+
+@media (min-width: 300px) and (max-width: 792px){
+    .wrapper{
+        background-color: blue;
+        width: clamp(300px,100%,800px);
+    }
+}

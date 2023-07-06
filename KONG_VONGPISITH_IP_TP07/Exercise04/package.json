@@ -1,0 +1,16 @@
+{
+  "name": "exercise04",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon npm run start"
+  },
+  "author": "pisith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

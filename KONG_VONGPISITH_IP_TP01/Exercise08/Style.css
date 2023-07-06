@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.animation{
+    background-color: rgb(66, 85, 85);
+    width: 400px;
+    height: 280px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+   
+}
+h1{
+    text-align: center;
+}
+.drop{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-right: 25px;
+    margin-left: 25px;
+    animation-name: animation1;
+    animation-fill-mode: forwards;
+    animation-delay: calc(var(--order) * 200ms);
+    animation-duration: 5s;
+    
+
+    
+}
+@keyframes animation1{
+    from {top:0px;}
+    to {top:200px;}
+}
